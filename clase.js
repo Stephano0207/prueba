@@ -1,8 +1,8 @@
 class Usuario{
-nombre;
-apellido;
-edad;
-tipo;
+nombre='NN';
+apellido='NA';
+edad=0;
+tipo='NT';
 
 constructor (nombre,apellido,edad,tipo){
     this.nombre=nombre;
