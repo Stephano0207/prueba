@@ -19,7 +19,3 @@ constructor (nombre,apellido,edad,tipo){
 
 }
 
-
-usuario= new Usuario('Shadow','Castañeda',4,'perro');
-let datos=usuario.obtenerNombres();
-console.log(datos);
