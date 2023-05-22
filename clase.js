@@ -9,11 +9,17 @@ constructor (nombre,apellido,edad,tipo){
     this.apellido=apellido;
     this.edad=edad;
     this.tipo=tipo;
-    console.log('Inicio el constructor');
+    console.log('Inicio el constructor...');
 }
 
+ obtenerNombres(){
+    console.log('Obtener los datos...');
+    return this.nombre+' '+this.apellido;
+}
 
 }
 
 
 usuario= new Usuario('Shadow','Castañeda',4,'perro');
+let datos=usuario.obtenerNombres();
+console.log(datos);
